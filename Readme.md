@@ -8,9 +8,9 @@ Languages: Python (Data Science & ML), Java (OOP), JavaScript (ES6+), SQL.
 
 Data Science: NumPy, Pandas, Statistics, Fourier Transforms.
 
-Web Frontend: React.js, HTML5, CSS3.
+Web Frontend: HTML5, CSS3, JS.
 
-Animation & 3D: Three.js, GSAP, Framer Motion.
+Animation & 3D: Three.js, GSAP.
 
 Tools: Git, Power BI, LaTeX.
 
@@ -21,34 +21,29 @@ Google: Data Analytics Professional Certificate.
 
 HackerRank: SQL Intermediate & Basic.
 
-🛠️ Featured Projects
-1. Multi-Modal Synthetic Data Platform
-An ideated college project exhibition focused on generating high-fidelity synthetic data for various applications.
+🛠️ Featured Projects (Live on Portfolio)
+- Pathfinder-Prime: Autonomous Delivery Agent (Python)
+- Micro-Tools: JS Utilities (JavaScript)
+- java_project: OOP Applications (Java)
+- lung-cancer-prediction-ML-MODEL: ML Prediction Model (Jupyter/Python)
+- Reinforcement-learning-RL-in-neuroscience: RL Neuroscience (Python)
+- cv-disease-research-paper-model: CV Disease ML (Jupyter)
+- oss-audit-24MIM10081-Kartavya: OSS Analysis (Shell)
+- First GitHub Demo
 
-2. Noise Cancellation via Fourier Transform
-A Streamlit-based application developed for a college mathematics project that utilizes Fourier transforms for real-time noise reduction.
-
-3. Stock Analysis Tool
-A data-driven project designed to analyze market trends and stock performance.
+All projects accessible via interactive cards on the site.
 
 🎨 Design Philosophy
 "Built with design, not templates."
 
-This portfolio utilizes:
+Liquid 3D Interactions: Three.js
+Scroll Animations: GSAP
+Custom Typography: TT Commons, Helvetica
 
-Liquid 3D Interactions: Powered by Three.js for an immersive user experience.
-
-Scroll-Triggered Visuals: Leveraging GSAP for smooth, intentional storytelling.
-
-Typography-Driven Layouts: Featuring custom typefaces like TT Commons and Helvetica for a professional, Swiss-style aesthetic.
-
-📬 Connect with Me
-LinkedIn: /in/kartavya-rana-970945280
-
-GitHub: /kartavyaranaa
-
+📬 Connect
+LinkedIn: https://www.linkedin.com/in/kartavya-rana-970945280
+GitHub: https://github.com/kartavyaranaa
 Instagram: @kartavyaranaa
-
 Email: kartavyarana2004@gmail.com
 
 © 2026 Kartavya Rana

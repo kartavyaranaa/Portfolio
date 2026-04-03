@@ -142,10 +142,97 @@ const modalBody = document.getElementById('modal-body');
 
 window.openModal = function(projectId) {
     let content = '';
-    if (projectId === 'project1') {
-        content = `<h2>Project 1</h2><p>Description here...</p><h3>Tech Stack</h3><ul><li>Python</li><li>ML</li></ul>`;
-    } else if (projectId === 'project2') {
-        content = `<h2>Project 2</h2><p>Description here...</p><h3>Tech Stack</h3><ul><li>React</li><li>Node.js</li></ul>`;
+    const githubBase = 'https://github.com/kartavyaranaa/';
+    
+    if (projectId === 'project-pathfinder') {
+        content = `
+            <h2>Pathfinder Prime</h2>
+            <p>An Autonomous Delivery Agent built with Python. Advanced pathfinding and navigation system.</p>
+            <h3>Tech Stack</h3>
+            <ul>
+                <li>Python</li>
+                <li>Pathfinding Algorithms</li>
+                <li>MIT License</li>
+            </ul>
+            <p><a href="${githubBase}Pathfinder-Prime" target="_blank" class="project-link">View on GitHub →</a></p>
+        `;
+    } else if (projectId === 'project-microtools') {
+        content = `
+            <h2>Micro Tools</h2>
+            <p>Collection of JavaScript micro-tools for everyday development tasks.</p>
+            <h3>Tech Stack</h3>
+            <ul>
+                <li>JavaScript</li>
+            </ul>
+            <p><a href="${githubBase}Micro-Tools" target="_blank" class="project-link">View on GitHub →</a></p>
+        `;
+    } else if (projectId === 'project-java') {
+        content = `
+            <h2>Java Project</h2>
+            <p>Comprehensive Java development project showcasing OOP principles.</p>
+            <h3>Tech Stack</h3>
+            <ul>
+                <li>Java</li>
+            </ul>
+            <p><a href="${githubBase}java_project" target="_blank" class="project-link">View on GitHub →</a></p>
+        `;
+    } else if (projectId === 'project-lungcancer') {
+        content = `
+            <h2>Lung Cancer Prediction ML Model</h2>
+            <p>Machine Learning model for lung cancer prediction using Jupyter Notebooks.</p>
+            <h3>Tech Stack</h3>
+            <ul>
+                <li>Jupyter Notebook</li>
+                <li>Machine Learning</li>
+                <li>Python</li>
+            </ul>
+            <p><a href="${githubBase}lung-cancer-prediction-ML-MODEL-main" target="_blank" class="project-link">View on GitHub →</a></p>
+        `;
+    } else if (projectId === 'project-rl') {
+        content = `
+            <h2>Reinforcement Learning in Neuroscience</h2>
+            <p>RL applications in neuroscience research and modeling.</p>
+            <h3>Tech Stack</h3>
+            <ul>
+                <li>Reinforcement Learning</li>
+                <li>Neuroscience</li>
+                <li>Python</li>
+            </ul>
+            <p><a href="${githubBase}Reinforcement-learning-RL-in-neuroscience-main" target="_blank" class="project-link">View on GitHub →</a></p>
+        `;
+    } else if (projectId === 'project-cvdisease') {
+        content = `
+            <h2>CV Disease Research Paper Model</h2>
+            <p>Machine learning models from cardiovascular disease research papers implemented in Jupyter.</p>
+            <h3>Tech Stack</h3>
+            <ul>
+                <li>Jupyter Notebook</li>
+                <li>Machine Learning</li>
+            </ul>
+            <p><a href="${githubBase}cv-disease-research-paper-model-main" target="_blank" class="project-link">View on GitHub →</a></p>
+        `;
+    } else if (projectId === 'project-ossaudit') {
+        content = `
+            <h2>OSS Audit 24MIM10081-Kartavya</h2>
+            <p>Open Source Software audit and analysis project.</p>
+            <h3>Tech Stack</h3>
+            <ul>
+                <li>Shell</li>
+            </ul>
+            <p><a href="${githubBase}oss-audit-24MIM10081-Kartavya" target="_blank" class="project-link">View on GitHub →</a></p>
+        `;
+    } else if (projectId === 'project-demo') {
+        content = `
+            <h2>First GitHub Demo</h2>
+            <p>My first demonstration project on GitHub.</p>
+            <h3>Tech Stack</h3>
+            <ul>
+                <li>GitHub</li>
+            </ul>
+            <p><a href="${githubBase}this is my first demo of git hub" target="_blank" class="project-link">View on GitHub →</a></p>
+        `;
+    } else {
+        content = '<h2>Project</h2><p>Check out the project on GitHub!</p>';
     }
     modalBody.innerHTML = content;
     modal.style.display = 'block';
